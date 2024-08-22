@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ContainerPrincipal {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    background-image: radial-gradient(circle, hsla(258, 96%, 21%, 0.932), hsl(200, 86%, 8%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.Middlebar {
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(32, 96%, 56%);
+    padding: 20px;
+}
+
+.ImagemLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Fieldset fieldset {
+    width: 85%;
+    padding: 18px;
+    margin-right: 90px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Fieldset fieldset div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Fieldset label {
+    width: 20%;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.Fieldset input {
+    width: 70%;
+    padding: 3px;
+}
+
+fieldset button {
+    padding: 6px 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
